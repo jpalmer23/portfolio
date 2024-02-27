@@ -1,0 +1,31 @@
+.projects {
+    padding: $padding 0;
+    background: $projects-bg;
+}
+
+.projects__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.projects__card {
+    cursor: pointer;
+    display: block;
+    max-width: 370px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+    background: $white;
+    transition: .5s ease;
+    &:hover{
+        transform: scale(1.02);
+        background-color: $accent-color;
+    }
+}
+.projects__card-img {
+    border-radius: 10px;
+}
+.projects__card-desc {
+    padding: 15px 20px 25px;
+    font-size: 24px;
+    font-weight: 700;
+}

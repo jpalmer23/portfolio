@@ -1,0 +1,23 @@
+.skills {
+    padding: $padding 0;
+}
+.skills__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+.skill__item {
+    margin: 0 auto;
+    max-width: 550px;
+}
+.skill__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.skill__text {
+    font-size: 18px;
+    line-height: 150%;
+}

@@ -1,0 +1,47 @@
+.dark {
+    background-color: $black;
+    color: $white;
+    .header {
+        border-bottom: 1px solid #26292D;
+    }
+    .projects {
+        background-color: $black;
+    }
+    .projects__card {
+        background-color: $black;
+    }
+    .project__link {
+        border: 1px solid $white;
+        &:hover {
+            border: 1px solid $accent-color;
+        }
+        svg {
+            fill: $white;
+        }
+    }
+    a {
+        color: $white;
+        }
+}
+
+body{
+    font-family: $sans;
+    background-color: $white;
+    color: $black;
+}
+
+
+
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: $accent-color;
+    margin-bottom: clamp(20px, 0.341rem + 4.545vw, 60px);
+}

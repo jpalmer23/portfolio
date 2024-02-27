@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$sans: "DM Sans", sans-serif;
+$poppins: "Poppins", sans-serif;
+$black: #171718;
+$white: #fff;
+$main-bg: $black;
+$main-border: $black;
+$main-color: $white;
+$accent-color: #5C62EC;
+$projects-bg: rgb(229, 229, 229);
+$padding: clamp(20px, 0.114rem + 5.682vw, 70px);
+
+$page-bg: $white;
+$text-color: $black;
+

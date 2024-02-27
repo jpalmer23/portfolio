@@ -1,0 +1,37 @@
+.dark-mode-btn{
+    order: 9;
+    position: relative;
+    width: 51px;
+    height: 26px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272727;
+    border-radius: 50px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        background-color: $white;
+        transition: left .5s ease;
+    }
+    @media (max-width:636px) {
+        order: 0;
+    }
+}
+
+.dark-mode-btn--active::before {
+    left: 26px;
+}
+
+.dark-mode-btn__icon {
+    z-index: 5;
+    width: 16px;
+    height: 16px;
+    fill: #000;
+}

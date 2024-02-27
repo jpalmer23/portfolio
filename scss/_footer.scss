@@ -1,0 +1,33 @@
+.footer {
+    background-color: $main-bg;
+    padding: 60px 0;
+    color: $main-color;
+    border-top: 1px solid #26292D;
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer__link {
+    display: inline-block;
+    &:hover .footer__icon {
+        fill: $accent-color;
+    }
+}
+.footer__icon {
+    fill: $white;
+    transition: .5s ease;
+}
+.footer__copyright {
+    font-size: 16px;
+    line-height: 1.5;
+}
